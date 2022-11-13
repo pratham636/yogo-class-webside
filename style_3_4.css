@@ -1,0 +1,145 @@
+body{
+    background-color: #077054;
+    font-family:'latoregular';
+    display: grid;
+}
+.title{
+    text-align: center;
+    background-color: #077054;
+    /* font-family: 'latoregular'; */
+
+}
+
+.title h2{
+    color: #b6d8cf;
+}
+
+.title h3{
+    color: white;
+}
+
+.manu{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    list-style: none;
+    background-color: #077054;
+}
+
+.manu a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 21px;
+}
+.manu  :hover,.manu a.active{
+    color: violet;
+}
+
+
+    .body1{
+        display: grid;
+        background-color: white;
+        margin: 0px 50px;
+        padding: 0px;
+        /* grid-template-areas: 
+        's1 s1 s1 s1 img'
+        's1 s1 s1 s1 img'
+        's1 s1 s1 s1 img'; */
+    }
+.s1{
+    justify-content: center;
+    /* text-align: center; */
+    /* justify-content: center center; */
+    color: #077054;
+    margin: 0px 0px 40px 0px;
+    padding: 0px;
+    font-size: 65px;
+    font-family: Calibri;
+}
+.s10{
+    font-family: "nixie one";
+
+}
+.body2{
+    margin: 40px 40px;
+    background-color: white;
+}
+
+.inq{
+    margin: 140px 209px 80px 209px;
+}
+
+.inq input{
+    width: 500px;
+    height: 30px;
+    margin: 15px 0px;
+}
+
+element.style {
+    margin: 15px 0px;
+    /* width: 500px;
+    height: 30px; */
+}
+/* 
+.img{
+    margin: 50px;
+    padding: 0px;
+} */
+
+.but{
+    margin: 10px 0px;
+    background-color: #077054;
+    color: white;
+    border-radius: 10px;
+    width: 50px;
+    height: 25px;
+}
+
+.but:hover{
+    background-color: violet;
+    color: #000;
+    /* margin: 100px; */
+}
+h2{
+    font-size: 45px;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Courier New";
+}
+
+h3{
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px 0px 45px 0px;
+    font-family: Nixie One;
+}
+
+h4{
+    color: #b6d8cf;
+    margin: 15px 50px;
+    padding: 0px;
+    background-color: #077054;
+    font-size: 28px;
+}
+
+.s2{
+    display: grid;
+    grid-template-columns: 7fr 2fr;
+}
+.img2{
+    display: flex;
+    justify-content: space-evenly;
+}
+a .d1{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    height: 10pxs;
+}
+
+.d1 img{
+    height: 40px;
+    width: 40px;
+    right: -63em;
+    margin: 15px 0px;
+}

@@ -1,0 +1,125 @@
+body{
+    background-color: #077054;
+    font-family: 'latoregular';
+    display: grid;
+}
+.title{
+    text-align: center;
+    background-color: #077054;
+    /* font-family: 'latoregular'; */
+
+}
+
+.title h2{
+    color: #b6d8cf;
+}
+
+.title h3{
+    color: white;
+}
+
+.manu{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    list-style: none;
+    background-color: #077054;
+}
+
+.manu a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 21px;
+}
+.manu  :hover,.manu a.active{
+    color: violet;
+}
+
+
+    .body1{
+        display: grid;
+        background-color: white;
+        margin: 0px 50px;
+        padding: 0px;
+        grid-template-columns: 2fr 1fr;
+    }
+    .s9{
+        margin: 0px 0px 40px 0px;;
+        padding: 0px;
+    color: #077054;
+    font-size: 40px;
+    font-family: Calibri;
+    }
+.s1{
+    /* justify-content: center center; */
+    color: #262727d3;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    font-family: "nixie one";
+}
+
+.body2{
+    margin: 40px 35px;
+    background-color: white;
+}
+
+.pa1{
+    margin: 5px 0px 25px 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: 'nixie one';
+}
+
+.img{
+    margin: 50px;
+    padding: 0px;
+}
+
+h2{
+    font-size: 45px;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Courier New";
+}
+
+h3{
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px 0px 45px 0px;
+    font-family: Nixie One;
+}
+
+h4{
+    color: #b6d8cf;
+    margin: 15px 50px;
+    padding: 0px;
+    background-color: #077054;
+    font-size: 28px;
+}
+
+.s2{
+    display: grid;
+    /* display: grid; */
+    grid-template-columns: 7fr 2fr;
+
+    /* grid-template-areas: 
+    'Location img2'; */
+}
+.img2{
+    display: flex;
+    justify-content: space-evenly;
+}
+a .d1{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    height: 10pxs;
+}
+
+.d1 img{
+    height: 40px;
+    width: 40px;
+    right: -63em;
+    margin: 15px 0px;
+}
